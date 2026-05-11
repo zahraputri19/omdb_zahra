@@ -14,3 +14,5 @@ Route::get('/logout', [AuthController::class, 'logout'])->name('signout');
 Route::prefix('controlpanel')->middleware('checkLogin')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
+
+Route::get ('/switch-lang/{locale}', [AuthController::class, 'switchLang'])->name('switch-lang');
