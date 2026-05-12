@@ -35,10 +35,10 @@
                     </button>
                     <div class="dropdown-menu">
                         <!-- Menggunakan route name 'switch-lang' agar tidak 404 -->
-                        <a href="{{ route('switch-lang', 'en') }}" class="dropdown-item {{ app()->getLocale() == 'en' ? 'active' : '' }}">
+                        <a href="{{ url('lang', 'en') }}" class="dropdown-item {{ app()->getLocale() == 'en' ? 'active' : '' }}">
                             English
                         </a>
-                        <a href="{{ route('switch-lang', 'id') }}" class="dropdown-item {{ app()->getLocale() == 'id' ? 'active' : '' }}">
+                        <a href="{{ url('lang', 'id') }}" class="dropdown-item {{ app()->getLocale() == 'id' ? 'active' : '' }}">
                             Bahasa Indonesia
                         </a>
                     </div>
