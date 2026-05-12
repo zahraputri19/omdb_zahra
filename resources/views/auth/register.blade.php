@@ -50,7 +50,7 @@
                 <form method="POST" action="{{ url('/register') }}">
                     @csrf
                   <div class="form-group">
-                    <label for="name">{{ __('messages.full_name') }}</label>
+                    <label for="name">{{ __('messages.Full Name') }}</label>
                     <input id="name" type="text" class="form-control" name="name">
                     @error('name')
                         <span class="text-danger text-sm">{{ $message }}</span>
@@ -78,21 +78,21 @@
                       @enderror
                     </div>
                     <div class="form-group col-6">
-                      <label for="password2" class="d-block">{{ __('messages.password_confirmation') }}</label>
+                      <label for="password2" class="d-block">{{ __('messages.Password Confirmation') }}</label>
                       <input id="password2" type="password" class="form-control" name="password_confirmation">
                     </div>
                   </div>
 
                   <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-lg btn-block">
-                      {{ __('messages.register_button') }}
+                      {{ __('messages.register') }}
                     </button>
                   </div>
                 </form>
               </div>
             </div>
             <div class="mt-5 text-muted text-center">
-              {{ __('messages.already_have_account') }} <a href="{{ route('login') }}">{{ __('messages.login_here') }}</a>
+              {{ __('messages.Already have an account?') }} <a href="{{ route('login') }}">{{ __('messages.login') }}</a>
             </div>
             <div class="simple-footer">
               Copyright &copy; Stisla <span id="year"></span>

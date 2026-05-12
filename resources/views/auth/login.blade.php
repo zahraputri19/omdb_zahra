@@ -71,7 +71,7 @@
 
                   <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-lg btn-block" tabindex="4">
-                      {{ __('messages.login_button') }}
+                      {{ __('messages.login') }}
                     </button>
                   </div>
                 </form>
@@ -79,7 +79,7 @@
               </div>
             </div>
             <div class="mt-5 text-muted text-center">
-              {{ __('messages.no_account') }} <a href="{{ url('/register') }}">{{ __('messages.create_one') }}</a>
+              {{ __('messages.Dont have an account?') }} <a href="{{ url('/register') }}">{{ __('messages.create one') }}</a>
             </div>
             <div class="simple-footer">
               Copyright &copy; Stisla <span id="year"></span>
