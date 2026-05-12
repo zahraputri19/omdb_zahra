@@ -1,10 +1,10 @@
       <div class="main-sidebar sidebar-style-2">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
-            <a href="index.html">OMDB Zey</a>
+            <a href="index.html">OMDB Zahra</a>
           </div>
           <div class="sidebar-brand sidebar-brand-sm">
-            <a href="index.html">OZ</a>
+            <a href="index.html">ZPA</a>
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">{{__('messages.PAGES') }}</li>
